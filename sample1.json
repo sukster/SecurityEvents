@@ -1,0 +1,580 @@
+Record 1
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "System": {
+      "Channel": "Security",
+      "Computer": "DC1.insecurebank.local",
+      "Correlation": null,
+      "EventID": 1102,
+      "EventRecordID": 203050,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 744,
+          "ThreadID": 768
+        }
+      },
+      "Keywords": "0x4020000000000000",
+      "Level": 4,
+      "Opcode": 0,
+      "Provider": {
+        "#attributes": {
+          "Guid": "{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}",
+          "Name": "Microsoft-Windows-Eventlog"
+        }
+      },
+      "Security": null,
+      "Task": 104,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2019-05-08T03:00:11.778188Z"
+        }
+      },
+      "Version": 0
+    },
+    "UserData": {
+      "LogFileCleared": {
+        "#attributes": {
+          "xmlns": "http://manifests.microsoft.com/win/2004/08/windows/eventlog"
+        },
+        "SubjectDomainName": "insecurebank",
+        "SubjectLogonId": "0x218b896",
+        "SubjectUserName": "administrator",
+        "SubjectUserSid": "S-1-5-21-738609754-2819869699-4189121830-500"
+      }
+    }
+  }
+}
+Record 2
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "AccessList": "%%7680\r\n\t\t\t\t",
+      "AccessMask": "0x1",
+      "AdditionalInfo": "CN=ALICE,CN=Servers,CN=HQ,CN=Sites,CN=Configuration,DC=insecurebank,DC=local",
+      "AdditionalInfo2": "%{6c4c19a5-c129-4e8e-8c49-a80898679de5}",
+      "HandleId": "0x0",
+      "ObjectName": "%{a40d1d35-0354-4180-987a-da7c4888fdad}",
+      "ObjectServer": "DS",
+      "ObjectType": "%{f780acc0-56f0-11d1-a9c6-0000f80367c1}",
+      "OperationType": "Object Access",
+      "Properties": "%%7680\r\n\t{bf967a92-0de6-11d0-a285-00aa003049e2}\r\n",
+      "SubjectDomainName": "insecurebank",
+      "SubjectLogonId": "0x418a6da",
+      "SubjectUserName": "Administrator",
+      "SubjectUserSid": "S-1-5-21-738609754-2819869699-4189121830-500"
+    },
+    "System": {
+      "Channel": "Security",
+      "Computer": "DC1.insecurebank.local",
+      "Correlation": null,
+      "EventID": 4662,
+      "EventRecordID": 203053,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 444,
+          "ThreadID": 4980
+        }
+      },
+      "Keywords": "0x8020000000000000",
+      "Level": 0,
+      "Opcode": 0,
+      "Provider": {
+        "#attributes": {
+          "Guid": "54849625-5478-4994-A5BA-3E3B0328C30D",
+          "Name": "Microsoft-Windows-Security-Auditing"
+        }
+      },
+      "Security": null,
+      "Task": 14080,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2019-05-08T03:00:37.541177Z"
+        }
+      },
+      "Version": 0
+    }
+  }
+}
+Record 3
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "AccountExpires": "-",
+      "AllowedToDelegateTo": "-",
+      "ComputerAccountChange": "-",
+      "DisplayName": "-",
+      "DnsHostName": "-",
+      "HomeDirectory": "-",
+      "HomePath": "-",
+      "LogonHours": "-",
+      "NewUacValue": "-",
+      "OldUacValue": "-",
+      "PasswordLastSet": "-",
+      "PrimaryGroupId": "-",
+      "PrivilegeList": "-",
+      "ProfilePath": "-",
+      "SamAccountName": "-",
+      "ScriptPath": "-",
+      "ServicePrincipalNames": "\r\n\t\tHOST/alice.insecurebank.local\r\n\t\tRestrictedKrbHost/alice.insecurebank.local\r\n\t\tHOST/ALICE\r\n\t\tRestrictedKrbHost/ALICE\r\n\t\tTERMSRV/alice.insecurebank.local\r\n\t\tTERMSRV/ALICE\r\n\t\tWSMAN/alice.insecurebank.local\r\n\t\tWSMAN/alice\r\n\t\tGC/alice.insecurebank.local/insecurebank.local",
+      "SidHistory": "-",
+      "SubjectDomainName": "insecurebank",
+      "SubjectLogonId": "0x418a6da",
+      "SubjectUserName": "Administrator",
+      "SubjectUserSid": "S-1-5-21-738609754-2819869699-4189121830-500",
+      "TargetDomainName": "insecurebank",
+      "TargetSid": "S-1-5-21-738609754-2819869699-4189121830-1120",
+      "TargetUserName": "ALICE$",
+      "UserAccountControl": "-",
+      "UserParameters": "-",
+      "UserPrincipalName": "-",
+      "UserWorkstations": "-"
+    },
+    "System": {
+      "Channel": "Security",
+      "Computer": "DC1.insecurebank.local",
+      "Correlation": null,
+      "EventID": 4742,
+      "EventRecordID": 203054,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 444,
+          "ThreadID": 3956
+        }
+      },
+      "Keywords": "0x8020000000000000",
+      "Level": 0,
+      "Opcode": 0,
+      "Provider": {
+        "#attributes": {
+          "Guid": "54849625-5478-4994-A5BA-3E3B0328C30D",
+          "Name": "Microsoft-Windows-Security-Auditing"
+        }
+      },
+      "Security": null,
+      "Task": 13825,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2019-05-08T03:00:37.572176Z"
+        }
+      },
+      "Version": 0
+    }
+  }
+}
+Record 4
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "AccessList": "%%7688\r\n\t\t\t\t",
+      "AccessMask": "0x100",
+      "AdditionalInfo": "-",
+      "AdditionalInfo2": "",
+      "HandleId": "0x0",
+      "ObjectName": "%{c6faf700-bfe4-452a-a766-424f84c29583}",
+      "ObjectServer": "DS",
+      "ObjectType": "%{19195a5b-6da0-11d0-afd3-00c04fd930c9}",
+      "OperationType": "Object Access",
+      "Properties": "%%7688\r\n\t\t{9923a32a-3607-11d2-b9be-0000f87a36b2}\r\n\t{19195a5b-6da0-11d0-afd3-00c04fd930c9}\r\n",
+      "SubjectDomainName": "insecurebank",
+      "SubjectLogonId": "0x418a6fb",
+      "SubjectUserName": "Administrator",
+      "SubjectUserSid": "S-1-5-21-738609754-2819869699-4189121830-500"
+    },
+    "System": {
+      "Channel": "Security",
+      "Computer": "DC1.insecurebank.local",
+      "Correlation": null,
+      "EventID": 4662,
+      "EventRecordID": 203056,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 444,
+          "ThreadID": 4980
+        }
+      },
+      "Keywords": "0x8020000000000000",
+      "Level": 0,
+      "Opcode": 0,
+      "Provider": {
+        "#attributes": {
+          "Guid": "54849625-5478-4994-A5BA-3E3B0328C30D",
+          "Name": "Microsoft-Windows-Security-Auditing"
+        }
+      },
+      "Security": null,
+      "Task": 14080,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2019-05-08T03:00:37.583261Z"
+        }
+      },
+      "Version": 0
+    }
+  }
+}
+Record 5
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "AccountExpires": "-",
+      "AllowedToDelegateTo": "-",
+      "ComputerAccountChange": "-",
+      "DisplayName": "-",
+      "DnsHostName": "-",
+      "HomeDirectory": "-",
+      "HomePath": "-",
+      "LogonHours": "-",
+      "NewUacValue": "-",
+      "OldUacValue": "-",
+      "PasswordLastSet": "-",
+      "PrimaryGroupId": "-",
+      "PrivilegeList": "-",
+      "ProfilePath": "-",
+      "SamAccountName": "-",
+      "ScriptPath": "-",
+      "ServicePrincipalNames": "\r\n\t\tHOST/alice.insecurebank.local\r\n\t\tRestrictedKrbHost/alice.insecurebank.local\r\n\t\tHOST/ALICE\r\n\t\tRestrictedKrbHost/ALICE\r\n\t\tTERMSRV/alice.insecurebank.local\r\n\t\tTERMSRV/ALICE\r\n\t\tWSMAN/alice.insecurebank.local\r\n\t\tWSMAN/alice\r\n\t\tGC/alice.insecurebank.local/insecurebank.local\r\n\t\tE3514235-4B06-11D1-AB04-00C04FC2DCD2/ae9a3b29-01d1-4851-8ca8-e49cd3985e5b/insecurebank.local",
+      "SidHistory": "-",
+      "SubjectDomainName": "insecurebank",
+      "SubjectLogonId": "0x418a6fb",
+      "SubjectUserName": "Administrator",
+      "SubjectUserSid": "S-1-5-21-738609754-2819869699-4189121830-500",
+      "TargetDomainName": "insecurebank",
+      "TargetSid": "S-1-5-21-738609754-2819869699-4189121830-1120",
+      "TargetUserName": "ALICE$",
+      "UserAccountControl": "-",
+      "UserParameters": "-",
+      "UserPrincipalName": "-",
+      "UserWorkstations": "-"
+    },
+    "System": {
+      "Channel": "Security",
+      "Computer": "DC1.insecurebank.local",
+      "Correlation": null,
+      "EventID": 4742,
+      "EventRecordID": 203057,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 444,
+          "ThreadID": 1224
+        }
+      },
+      "Keywords": "0x8020000000000000",
+      "Level": 0,
+      "Opcode": 0,
+      "Provider": {
+        "#attributes": {
+          "Guid": "54849625-5478-4994-A5BA-3E3B0328C30D",
+          "Name": "Microsoft-Windows-Security-Auditing"
+        }
+      },
+      "Security": null,
+      "Task": 13825,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2019-05-08T03:00:37.586173Z"
+        }
+      },
+      "Version": 0
+    }
+  }
+}
+Record 6
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "AccessList": "%%7688\r\n\t\t\t\t",
+      "AccessMask": "0x100",
+      "AdditionalInfo": "-",
+      "AdditionalInfo2": "",
+      "HandleId": "0x0",
+      "ObjectName": "%{c6faf700-bfe4-452a-a766-424f84c29583}",
+      "ObjectServer": "DS",
+      "ObjectType": "%{19195a5b-6da0-11d0-afd3-00c04fd930c9}",
+      "OperationType": "Object Access",
+      "Properties": "%%7688\r\n\t\t{1131f6ac-9c07-11d1-f79f-00c04fc2dcd2}\r\n\t{19195a5b-6da0-11d0-afd3-00c04fd930c9}\r\n",
+      "SubjectDomainName": "insecurebank",
+      "SubjectLogonId": "0x418a6fb",
+      "SubjectUserName": "Administrator",
+      "SubjectUserSid": "S-1-5-21-738609754-2819869699-4189121830-500"
+    },
+    "System": {
+      "Channel": "Security",
+      "Computer": "DC1.insecurebank.local",
+      "Correlation": null,
+      "EventID": 4662,
+      "EventRecordID": 203058,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 444,
+          "ThreadID": 4008
+        }
+      },
+      "Keywords": "0x8020000000000000",
+      "Level": 0,
+      "Opcode": 0,
+      "Provider": {
+        "#attributes": {
+          "Guid": "54849625-5478-4994-A5BA-3E3B0328C30D",
+          "Name": "Microsoft-Windows-Security-Auditing"
+        }
+      },
+      "Security": null,
+      "Task": 14080,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2019-05-08T03:00:37.591203Z"
+        }
+      },
+      "Version": 0
+    }
+  }
+}
+Record 7
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "AccessList": "%%7688\r\n\t\t\t\t",
+      "AccessMask": "0x100",
+      "AdditionalInfo": "-",
+      "AdditionalInfo2": "",
+      "HandleId": "0x0",
+      "ObjectName": "%{c6faf700-bfe4-452a-a766-424f84c29583}",
+      "ObjectServer": "DS",
+      "ObjectType": "%{19195a5b-6da0-11d0-afd3-00c04fd930c9}",
+      "OperationType": "Object Access",
+      "Properties": "%%7688\r\n\t\t{1131f6ac-9c07-11d1-f79f-00c04fc2dcd2}\r\n\t{19195a5b-6da0-11d0-afd3-00c04fd930c9}\r\n",
+      "SubjectDomainName": "insecurebank",
+      "SubjectLogonId": "0x418a6fb",
+      "SubjectUserName": "Administrator",
+      "SubjectUserSid": "S-1-5-21-738609754-2819869699-4189121830-500"
+    },
+    "System": {
+      "Channel": "Security",
+      "Computer": "DC1.insecurebank.local",
+      "Correlation": null,
+      "EventID": 4662,
+      "EventRecordID": 203059,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 444,
+          "ThreadID": 1224
+        }
+      },
+      "Keywords": "0x8020000000000000",
+      "Level": 0,
+      "Opcode": 0,
+      "Provider": {
+        "#attributes": {
+          "Guid": "54849625-5478-4994-A5BA-3E3B0328C30D",
+          "Name": "Microsoft-Windows-Security-Auditing"
+        }
+      },
+      "Security": null,
+      "Task": 14080,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2019-05-08T03:00:37.615168Z"
+        }
+      },
+      "Version": 0
+    }
+  }
+}
+Record 8
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "AccessList": "%%1537\r\n\t\t\t\t",
+      "AccessMask": "0x10000",
+      "AdditionalInfo": "-",
+      "AdditionalInfo2": "",
+      "HandleId": "0x0",
+      "ObjectName": "%{ae9a3b29-01d1-4851-8ca8-e49cd3985e5b}",
+      "ObjectServer": "DS",
+      "ObjectType": "%{f0f8ffab-1191-11d0-a060-00aa006c33ed}",
+      "OperationType": "Object Access",
+      "Properties": "%%1537\r\n\t{f0f8ffab-1191-11d0-a060-00aa006c33ed}\r\n",
+      "SubjectDomainName": "insecurebank",
+      "SubjectLogonId": "0x418a6da",
+      "SubjectUserName": "Administrator",
+      "SubjectUserSid": "S-1-5-21-738609754-2819869699-4189121830-500"
+    },
+    "System": {
+      "Channel": "Security",
+      "Computer": "DC1.insecurebank.local",
+      "Correlation": null,
+      "EventID": 4662,
+      "EventRecordID": 203060,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 444,
+          "ThreadID": 4008
+        }
+      },
+      "Keywords": "0x8020000000000000",
+      "Level": 0,
+      "Opcode": 0,
+      "Provider": {
+        "#attributes": {
+          "Guid": "54849625-5478-4994-A5BA-3E3B0328C30D",
+          "Name": "Microsoft-Windows-Security-Auditing"
+        }
+      },
+      "Security": null,
+      "Task": 14080,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2019-05-08T03:00:37.621188Z"
+        }
+      },
+      "Version": 0
+    }
+  }
+}
+Record 9
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "AccessList": "%%1537\r\n\t\t\t\t",
+      "AccessMask": "0x10000",
+      "AdditionalInfo": "-",
+      "AdditionalInfo2": "",
+      "HandleId": "0x0",
+      "ObjectName": "%{6c4c19a5-c129-4e8e-8c49-a80898679de5}",
+      "ObjectServer": "DS",
+      "ObjectType": "%{bf967a92-0de6-11d0-a285-00aa003049e2}",
+      "OperationType": "Object Access",
+      "Properties": "%%1537\r\n\t{bf967a92-0de6-11d0-a285-00aa003049e2}\r\n",
+      "SubjectDomainName": "insecurebank",
+      "SubjectLogonId": "0x418a6da",
+      "SubjectUserName": "Administrator",
+      "SubjectUserSid": "S-1-5-21-738609754-2819869699-4189121830-500"
+    },
+    "System": {
+      "Channel": "Security",
+      "Computer": "DC1.insecurebank.local",
+      "Correlation": null,
+      "EventID": 4662,
+      "EventRecordID": 203061,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 444,
+          "ThreadID": 1224
+        }
+      },
+      "Keywords": "0x8020000000000000",
+      "Level": 0,
+      "Opcode": 0,
+      "Provider": {
+        "#attributes": {
+          "Guid": "54849625-5478-4994-A5BA-3E3B0328C30D",
+          "Name": "Microsoft-Windows-Security-Auditing"
+        }
+      },
+      "Security": null,
+      "Task": 14080,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2019-05-08T03:00:37.623163Z"
+        }
+      },
+      "Version": 0
+    }
+  }
+}
+Record 10
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "AccountExpires": "-",
+      "AllowedToDelegateTo": "-",
+      "ComputerAccountChange": "-",
+      "DisplayName": "-",
+      "DnsHostName": "-",
+      "HomeDirectory": "-",
+      "HomePath": "-",
+      "LogonHours": "-",
+      "NewUacValue": "-",
+      "OldUacValue": "-",
+      "PasswordLastSet": "-",
+      "PrimaryGroupId": "-",
+      "PrivilegeList": "-",
+      "ProfilePath": "-",
+      "SamAccountName": "-",
+      "ScriptPath": "-",
+      "ServicePrincipalNames": "\r\n\t\tHOST/alice.insecurebank.local\r\n\t\tRestrictedKrbHost/alice.insecurebank.local\r\n\t\tHOST/ALICE\r\n\t\tRestrictedKrbHost/ALICE\r\n\t\tTERMSRV/alice.insecurebank.local\r\n\t\tTERMSRV/ALICE\r\n\t\tWSMAN/alice.insecurebank.local\r\n\t\tWSMAN/alice\r\n\t\tE3514235-4B06-11D1-AB04-00C04FC2DCD2/ae9a3b29-01d1-4851-8ca8-e49cd3985e5b/insecurebank.local",
+      "SidHistory": "-",
+      "SubjectDomainName": "insecurebank",
+      "SubjectLogonId": "0x418a6da",
+      "SubjectUserName": "Administrator",
+      "SubjectUserSid": "S-1-5-21-738609754-2819869699-4189121830-500",
+      "TargetDomainName": "insecurebank",
+      "TargetSid": "S-1-5-21-738609754-2819869699-4189121830-1120",
+      "TargetUserName": "ALICE$",
+      "UserAccountControl": "-",
+      "UserParameters": "-",
+      "UserPrincipalName": "-",
+      "UserWorkstations": "-"
+    },
+    "System": {
+      "Channel": "Security",
+      "Computer": "DC1.insecurebank.local",
+      "Correlation": null,
+      "EventID": 4742,
+      "EventRecordID": 203062,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 444,
+          "ThreadID": 3956
+        }
+      },
+      "Keywords": "0x8020000000000000",
+      "Level": 0,
+      "Opcode": 0,
+      "Provider": {
+        "#attributes": {
+          "Guid": "54849625-5478-4994-A5BA-3E3B0328C30D",
+          "Name": "Microsoft-Windows-Security-Auditing"
+        }
+      },
+      "Security": null,
+      "Task": 13825,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2019-05-08T03:00:37.624196Z"
+        }
+      },
+      "Version": 0
+    }
+  }
+}
